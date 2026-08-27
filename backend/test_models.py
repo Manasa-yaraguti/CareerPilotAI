@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 load_dotenv()
 
-genai.configure(api_key=os.getenv("AIzaSyDp06WZEsLSfq9VWHzkBJ1aKI8klKbaq1g"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 for model in genai.list_models():
     print(model.name)
