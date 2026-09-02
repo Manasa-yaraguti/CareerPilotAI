@@ -26,3 +26,4 @@ uvicorn==0.50.1
 PyMuPDF
 python-multipart
 python-jose[cryptography]
+google-generativeai
